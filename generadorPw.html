@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="./generadorPw.css">
+</head>
+<body>
+
+  
+    <div class="container">
+        <div class="img-container">
+            <img src="./computacion-en-la-nube.png" alt="" height="150px">
+                </div>
+        <h1>Password Generator</h1>
+    
+        <div class="options">
+            <label for="length">Length:</label>
+            <input type="number" id="length" value="6" min="6">
+        </div>
+
+        <div class="password-box">
+            <button id="generate-btn">Generate</button>
+        </div>
+
+        <div id="input-container">
+
+        </div>
+
+        <div class="password-rules">
+            <h2>This Password:</h2>
+            <ul>
+                
+              <div class="li-container" > <img src="./controlar.png" alt="checkbox" ><li>Does not contain vowels</li> </div>
+              <div class="li-container"> <img src="./controlar.png" alt="checkbox">  <li> Contains uppercase and lowercase letters</li> </div>
+              <div class="li-container"> <img src="./controlar.png" alt="checkbox"> <li>  Contains special characters</li></div>
+              <div class="li-container"> <img src="./controlar.png" alt="checkbox"><li>  Contains numbers from 0 to 9</li></div>
+            </ul>
+
+        </div>
+    </div>
+    <script src="./generador.js"></script>
+</body>
+</html>
+
+

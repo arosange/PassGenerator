@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+h2{
+    padding: 0;
+    margin: 0;
+}
+#password-box {
+ 
+    margin-bottom: 20px;
+}
+
+
+#password {
+    width: 200px;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+
+margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.options {
+    margin-top: 10px;
+}
+
+label {
+    margin-right: 10px;
+}
+
+input[type="number"] {
+    width: 50px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+h2{
+    padding-top: 30px;   
+}
+
+.password-rules li{
+    list-style: none;
+    padding: 10px 0;
+    text-align: left;
+}
+
+#input-container input{
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    border: none;
+    margin-top: 20px;
+    box-shadow: 0 5px 15px rgb(0, 0, 0,0.4);
+    font-size: 20px;
+    cursor: default;
+  
+    transition: all 0.3s
+}
+
+#length{
+    text-align: center;
+    font-size: 15px;
+}
+#input-container input:focus{
+    border-color: rgb(9, 9, 66);
+            background-color: #f0f8ff
+}
+
+.li-container{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
